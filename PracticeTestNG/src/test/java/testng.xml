@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Suite">
+  <test name="OrangeHRMLogin">
+    <classes>
+      <class name="TestNG_frame.OrangeHRM">
+      <methods>
+      <include name="LuncahApp"/>
+       <include name="EnterLoginDetails"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="OrangeHRMMyInfo">
+    <classes>
+      <class name="TestNG_frame.OrangeHRM">
+      <methods>
+         <include name="Openflipkart"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test name="TestFlipkart">
+    <classes>
+     <class name="TestNG_frame.OrangeHRM">
+      <methods>
+         <include name="Openflipkart"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+ </suite>
+
